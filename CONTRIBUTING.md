@@ -1,94 +1,154 @@
-# Contributing to Pro Git (2nd Edition)
+<p><h1 dir='rtl'>المساهمة لكتاب احترف جيت (الإصدار الثاني)</h1></p>
 
+<p><h2 dir='rtl'>الترخيص</h2></p>
 
-## Licensing
+<p dir='rtl'>بفتح طلب سحب (مساهمة) لهذه الحاوية, انت توافق على إتاحة عملك تحت <a href='https://github.com/progit/progit2/blob/master/LICENSE.asc'>رخصة المشروع</a>
+. أيضاً, انت توافق على منح هذا الترخيص لعملك كما هو مطلوب في الطبعات المستقبلية ل @ben و @schacon. في حالة ظهور تغييراتك في الإصدار المطبوع، سيتم إضافتك إلى <a href='https://github.com/progit/progit2/blob/master/book/contributors.asc'>قائمة المساهمين</a>.
+</p>
 
-By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+<p><h2 dir='rtl'>فتح مشكلة</h2></p>
 
-## Signaling an Issue
+<p dir='rtl'>قبل فتح مشكلة, رجاءً تأكد أنه لا يوجد مشكلة مشابهة بالفعل في نظام تعقب العلل.</p>
 
-Before signaling an issue, please check that there isn't already a similar one in the bug tracking system.
+<p dir='rtl'>أيضاً, إذا تم رصد المشكلة على موقع <a href='https://git-scm.com'>git-scm.com</a>, رجاءً تأكد إن كانت المشكلة مازالت موجودة في هذا المستودع. هذه المشكلة قد تكون صححت بالفعل, ولكن التغييرات لم يتم نشرها بعد.</p>
 
-Also, if this issue has been spotted on the git-scm.com site, please cross-check that it is still present in the pdf version.
-The issue may have already been corrected, but the changes have not been deployed yet.
+<p><h2 dir='rtl'>التصحيحات الصغيرة</h2></p>
 
-## Small Corrections
+<p dir='rtl'>الأخطاء المطبعية و التوضيحات الأساسية ستقبل إذا اتفقنا على أنها ستحسن المحتوى. تستطيع أيضاً فتح تذكرة حيث نستطيع تبيين كيف و إذا كانت تحتاج إلى عنونة.</p>
 
-Errata and basic clarifications will be accepted if we agree that they improve the content.
-You can also open an issue so we can figure out how or if it needs to be addressed.
+<p dir='rtl'>إذا لم تقم بذلك من قبل, <a href='https://guides.github.com/introduction/flow/'>دليل التدفق</a> قد يكون مفيد.</p>
 
-If you've never done this before, the [flow guide](https://guides.github.com/introduction/flow/) might be useful.
+<p><h2 dir='rtl'>التعديلات الكبيرة</h2></p>
 
-## Large Rewrites
+<p dir='rtl'>قم بفتح تذكرة للمناقشة قبل ان تبدأ. هذه التغييرات تميل لتكون ذاتية جداً, غالباً توضح أشياء لنسبة صغير من الناس ونادراً ما تستحق وقتاً لقبولها. محرري النسخ المحترفين قاموا بالفعل بمراجعة هذا المحتوى عدة مرات في حين قد يكون لديك اسلوب لغوي افضل مما نفعل ولكن من غير المحتمل ان يكون يستحق تغيير أجزاء كبيرة من النص.</p>
 
-Open an issue for discussion before you start.
-These changes tend to be very subjective, often only clarifying things for some small percentage of people and it's rarely worth the time to accept them.
-Professional copy editors have already reviewed this content multiple times so while you may have somewhat better taste and grammar than we do it's unlikely that your prose is going to be *so* much better that it's worth changing vast swaths of text.
+<p><h2 dir='rtl'>الأشكال التوضيحية</h2></p>
 
-## Figures
+<p dir='rtl'>الصور في هذا الكتاب مولدة باستخدام
+<a href='https://www.sketchapp.com/'>Sketch 3</a> مع <a href='https://github.com/progit2-ar/progit2/blob/master/diagram-source/progit.sketch'>ملف sketchbook مضمن</a>.
+</p>
 
-The images in this book were generated using [Sketch 3](http://bohemiancoding.com/sketch/), with the [included sketchbook file](diagram-source/progit.sketch).
+<p dir='rtl'>لإضافة شكل توضيحي:</p>
 
-To add a figure:
+<ol dir='rtl'>
+  <li>اضف الصفحة لكراسة الرسم (sketchbook)</li>
+  <li>اضف "شريحة" لصفحتك. أعطيها اسم مطابق لاسم ملف PNG, المتعلق بمجلد مصدر الجذر</li>
+  <li>تأكد من أنَّ شريحتك مُعَدة للتصدير على "800w".</li>
+</ol>
 
-1. Add a page to the sketchbook.
-Try to use the included symbols wherever possible.
-2. Add a "slice" to your page.
-Give it a name that matches the destination PNG filename, relative from the root of the source directory.
-3. Make sure your slice is set to export at "800w".
+<p><h2 dir='rtl'>الترجمة</h2></p>
 
+<p dir='rtl'>الترجمة للغات أخرى مشجعة بشدة ولكن التعامل معها مختلف قليلاً عن الإصدار الأول. الأن نحن نبقي على كل ترجمة في حاوية منفصلة.</p>
 
-## Translations
+<p dir='rtl'>وبما أنَّ كل ترجمة في حاوية مختلفة, لدينا أيضاً مشرفون مختلفون لكل مشروع. فريق احترف جيت يقوم ببساط ببناء هذه الترجمات لفرق الترجمة على موقع الكتاب.</p>
 
-Translations to other languages are highly encouraged but handled a little differently than the first edition.
-We now keep each translation in a separate repository.
+<p><h3 dir='rtl'>المشاريع الموجودة</h3></p>
 
-Since each translation is a different repository, we can also have different maintainers for each project.
-The Pro Git team simply pulls them in and builds them for the translation teams on the git-scm.com website.
+<p dir='rtl'>إذا كنت تأمل المساعدة في ترجمة كتاب احترف جيت الإصدار الثاني إلى لغتك, أولاً تأكد من المشاريع الموجودة و تواصل مع الناس المسؤولين عن المشروع إن كان متواجد.</p>
 
-### Existing Projects
+<p dir='rtl'>المشاريع الموجودة تتضمن:</p>
 
-If you wish to help at translating Progit 2nd edition to your
-language, first check already existing projects and get in touch with
-the people in charge of them if there's already one.
+<table dir='rtl'>
+  <tr>
+    <th>اللغة</th>
+    <th>المشروع</th>
+  </tr>
+  <tr>
+    <td>البيلاروسية</td>
+    <td><a href='https://github.com/progit/progit2-be'>progit/progit2-be</a></td>
+  </tr>
+  <tr>
+    <td>التشيكية</td>
+    <td><a href='https://github.com/progit-cs/progit2-cs'>progit-cs/progit2-cs</a></td>
+  </tr>
+  <tr>
+    <td>الإنجليزية</td>
+    <td><a href='https://github.com/progit/progit2'>progit/progit2</a></td>
+  </tr>
+  <tr>
+    <td>الأسبانية</td>
+    <td><a href='https://github.com/progit/progit2-es'>progit/progit2-es</a></td>
+  </tr>
+  <tr>
+    <td>الفرنسية</td>
+    <td><a href='https://github.com/progit/progit2-fr'>progit/progit2-fr</a></td>
+  </tr>
+  <tr>
+    <td>اليونانية</td>
+    <td><a href='https://github.com/progit-gr/progit2'>progit-gr/progit2</a></td>
+  </tr>
+  <tr>
+    <td>الأندونيسية</td>
+    <td><a href='https://github.com/progit/progit2-id'>progit/progit2-id</a></td>
+  </tr>
+  <tr>
+    <td>الإيطالية</td>
+    <td><a href='https://github.com/progit/progit2-it'>progit/progit2-it</a></td>
+  </tr>
+  <tr>
+    <td>اليابانية</td>
+    <td><a href='https://github.com/progit/progit2-ja'>progit/progit2-ja</a></td>
+  </tr>
+  <tr>
+    <td>الكورية</td>
+    <td><a href='https://github.com/progit/progit2-ko'>progit/progit2-ko</a></td>
+  </tr>
+  <tr>
+    <td>الهولندية</td>
+    <td><a href='https://github.com/progit/progit2-nl'>progit/progit2-nl</a></td>
+  </tr>
+  <tr>
+    <td>البرتغالية (البرازيل)</td>
+    <td><a href='https://github.com/progit2-pt-br/progit2'>progit2-pt-br/progit2</a></td>
+  </tr>
+  <tr>
+    <td>الروسية</td>
+    <td><a href='https://github.com/progit/progit2-ru'>progit/progit2-ru</a></td>
+  </tr>
+  <tr>
+    <td>السلوفينية</td>
+    <td><a href='https://github.com/progit/progit2-sl'>progit/progit2-sl</a></td>
+  </tr>
+  <tr>
+    <td>الصربية</td>
+    <td><a href='https://github.com/progit/progit2-sr'>progit/progit2-sr</a></td>
+  </tr>
+  <tr>
+    <td>التركية</td>
+    <td><a href='https://github.com/progit/progit2-tr'>progit/progit2-tr</a></td>
+  </tr>
+  <tr>
+    <td>الأوكرانية</td>
+    <td><a href='https://github.com/progit/progit2-uk'>progit/progit2-uk</a></td>
+  </tr>
+  <tr>
+    <td>الأوزبكية</td>
+    <td><a href='https://github.com/progit/progit2-uz'>progit/progit2-uz</a></td>
+  </tr>
+  <tr>
+    <td>الصينية المبسطة</td>
+    <td><a href='https://github.com/progit/progit2-zh'>progit/progit2-zh</a></td>
+  </tr>
+  <tr>
+    <td>الصينية التقليدية</td>
+    <td><a href='https://github.com/progit/progit2-zh-tw'>progit/progit2-zh-tw</a></td>
+  </tr>
+</table>
 
-Existing projects include:
+<p><h3 dir='rtl'>لغتك غير موجودة</h3></p>
 
-  Language   |   Project
------------- | -------------
-Беларуская  | [progit/progit2-be](https://github.com/progit/progit2-be)
-Čeština    | [progit-cs/progit2-cs](https://github.com/progit-cs/progit2-cs)
-English    | [progit/progit2](https://github.com/progit/progit2)
-Español    | [progit/progit2-es](https://github.com/progit/progit2-es)
-Français   | [progit/progit2-fr](https://github.com/progit/progit2-fr)
-Ελληνικά   | [progit2-gr/progit2](https://github.com/progit2-gr/progit2)
-Indonesian | [progit/progit2-id](https://github.com/progit/progit2-id)
-Italiano   | [progit/progit2-it](https://github.com/progit/progit2-it)
-日本語   | [progit/progit2-ja](https://github.com/progit/progit2-ja)
-한국어   | [progit/progit2-ko](https://github.com/progit/progit2-ko)
-Nederlands | [progit/progit2-nl](https://github.com/progit/progit2-nl)
-Português (Brasil) | [progit2-pt-br/progit2](https://github.com/progit2-pt-br/progit2)
-Русский   | [progit/progit2-ru](https://github.com/progit/progit2-ru)
-Slovenščina  | [progit/progit2-sl](https://github.com/progit/progit2-sl)
-Српски   | [progit/progit2-sr](https://github.com/progit/progit2-sr)
-Türkçe   | [progit/progit2-tr](https://github.com/progit/progit2-tr)
-Українська| [progit/progit2-uk](https://github.com/progit/progit2-uk)
-Ўзбекча  | [progit/progit2-uz](https://github.com/progit/progit2-uz)
-简体中文  | [progit/progit2-zh](https://github.com/progit/progit2-zh)
-正體中文  | [progit/progit2-zh-tw](https://github.com/progit/progit2-zh-tw)
+<p dir='rtl'>عندها أنت محظوظ! سوف تكون منشِئ لمشروع ترجمة جديد!</p>
 
-### Your Language does not Exist
+<p dir='rtl'>تستطيع البدأ بصنع نسخة خاصة بك من الإصدار الثاني من النسخة الإنجليزية, المتاحة هنا, لتفعل ذلك عليك:</p>
 
-Then you're lucky! You're gonna be the initiator of a new translation project!
-
-You can start to make your own version with the second edition in English, available here. To do so,
-
- 1. Pick your the [ISO 639 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and create a GitHub organization, say `progit2-[your code]` on github
- 2. Create a project progit2
- 3. Copy the structure of progit/progit2 (this project) in your project and start translating. You can reuse some material from the first edition, but beware that:
-    1. the text has been reworked in numerous parts
-    2. the markup has changed from markdown to [asciidoc](http://asciidoc.org)
- 4. Push to the new repo a few translated chapters
- 5. Ping an organizer so that the second edition of Progit in your language is pushed on git-scm.com.
+<ol dir='rtl'>
+<li>احصل على <a href='https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes'>رمز الأيزو</a> للغتك و قم بإنشاء منظمة على جيتهيب, اعطها اسم مثل <code>progit2-[رمز لغتك]</code></li>
+<li>قم بإنشاء مشروع باسم progit2</li>
+<li>قم بنسخ ملفات progit/progit2 (هذا المشروع) لمشروعك وابدأ بالترجمة. يمكنك الأحتفاظ ببعض أجزاء النسخة الأولى, ولكن تأكد أنَّ:
+  <ol dir='rtl'>
+    <li>تم إعادة صياغة النص في أجزاء عديدة</li>
+    <li>تم تغيير الترميز من markup إلى <a href='http://asciidoc.org/'>asciidoc</a></li>
+  </ol>
+</li>
+<li>قم بدفع بعض الأجزاء المترجمة إلى حاويتك الجديدة</li>
+<li>قم بتنبيه المنظمة بحيث الإصدار الثاني من الكتاب بلغتك سيكون على موقع الكتاب</li>
